@@ -317,12 +317,39 @@
 // 	default:
 // 		console.log('Unknown User');
 // }
-let role=prompt('Enter user role: ');
+// let role=prompt('Enter user role: ');
 
-if (role==='guest') {
-	console.log('Guest User.');
-} else if (role==='moderator'){
-	console.log('Moderator User.');
-}else{
-	console.log('Unknown User');
+// if (role==='guest') {
+// 	console.log('Guest User.');
+// } else if (role==='moderator'){
+// 	console.log('Moderator User.');
+// }else{
+// 	console.log('Unknown User');
+// }
+//////////////////////////////////////
+// LOOPS 
+//1. for 
+//2. while 
+//3. do...while 
+//4. for..in 
+//5. for...of
+
+// for(let i=1; i<=5; i++)
+// {
+// 	console.log('Hello World', i);
+// }
+
+// for(let i=1; i<=5; i++)
+// {
+// 	if (i%2!==0) {
+// 		console.log(i);
+// 	}
+// }
+
+let i=1;
+while (i<=5) {
+	if (i%2!==0) {
+		console.log(i);
+	}
+	i++;
 }
